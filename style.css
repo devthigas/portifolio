@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
 
 body{
     max-width: 960px;
@@ -19,10 +24,15 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
+
 header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo > h1{
@@ -31,12 +41,19 @@ header{
 
 nav ul{
     display: flex;
+    align-items: center;
 }
 
 li a{
     color: #fff;
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 14pt;
+}
+
+#contato{
+    border: 1px solid aqua;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 section{
@@ -45,9 +62,30 @@ section{
     flex-wrap: wrap-reverse;
     justify-content: space-between;
 }
-
+.sobre > h1{
+    font-size: 30pt;
+}
 .sobre > p{
     font-size: 11pt;
     line-height: 20px;
     max-width: 480px;
 }
+
+.sobre > button{
+    background-color: aqua;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    font-size: 15pt;
+    font-weight: 500;
+}
+
+.img > img{
+    width: 400px;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 1em aqua
+
+}
+
