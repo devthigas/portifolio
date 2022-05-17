@@ -50,6 +50,10 @@ li a{
     font-size: 12pt;
 }
 
+li a:hover{
+    color: #1BC6B4;
+}
+
 #contato{
     border: 1px solid aqua;
     padding: 10px;
@@ -72,13 +76,13 @@ li a{
 }
 
 .sobre > button{
-    background-color: aqua;
+    background-color: #1BC6B4;
     padding: 10px;
     outline: none;
     border-radius: 5px;
     border: none;
-    font-size: 15pt;
-    font-weight: 500;
+    font-size: 11pt;
+    font-weight: 600;
 }
 
 .img > img{
@@ -97,4 +101,8 @@ li a{
 }
 .html > h3{
     text-align: center;
+}
+
+#animate{
+    color: #1BC6B4;
 }

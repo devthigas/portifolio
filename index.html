@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/responsive.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://unpkg.com/typeit@8.5.4/dist/index.umd.js"></script>
           
 </head>
 <body>
@@ -24,7 +26,7 @@
     </header>
     <section class="sobre_container">
         <div class="sobre">
-            <h1>OI, EU SOU O THIAGO!</h1>
+            <h1 id="animate">OI, EU SOU O THIAGO!</h1>
             <p>
                 Seja Bem-vindo ao meu portifolio pessoal. Sou desenvolvedor font-end e estou em busca 
                 de uma oportunidade de trabalho. 
@@ -32,7 +34,12 @@
             <p>
                 Tenho 24 anos 
             </p>
-            <button type="button" class="btn btn-info">Baixar CV</button>
+            
+            <button id="button" type="button">
+                    <i class="fa-solid fa-download"></i>
+                    Baixar CV
+            </button>
+         
         </div>
         <div class="img">
             <img src="/thigas.png" alt="">
@@ -61,5 +68,14 @@
         <h2>PROJETOS</h2>
         <img src="/ps2flix.png" alt="">
     </section>
+    <script>
+        new TypeIt("#animate", {
+        strings: "HTML, CSS, Java Script.",
+        speed: 200,
+        waitUntilVisible: true,
+        }).go();
+        
+    </script>
+    <script src="https://kit.fontawesome.com/a955c4e814.js" crossorigin="anonymous"></script>
 </body>
 </html>
