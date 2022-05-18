@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #202529;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo > h1{
+    font-size: 14pt;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 10pt;
+}
+
+li a:hover{
+    color: #1BC6B4;
+}
+
+#contato{
+    border: 1px solid aqua;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#contato a{
+    margin-left: 10px;
+}
+
+#contato:hover{
+    background-color: #1BC6B4;
+    color: #202529;
+}
+
+#contato:hover a{
+    color: #202529;
+}
+.sobre_container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 5px solid rgb(0, 255, 183);
+}
+.sobre > h1{
+    font-size: 30pt;
+}
+.sobre > p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+    max-width: 480px;
+}
+
+.sobre > button{
+        background-color: #555555;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+.img > img{
+    max-width: 400px;
+
+}
+
+.habilidades_container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.html{
+    width: 100px;
+}
+.html > h3{
+    text-align: center;
+}
+
+#animate{
+    color: #1BC6B4;
+}
