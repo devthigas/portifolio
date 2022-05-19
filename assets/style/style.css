@@ -1,20 +1,12 @@
 
+/* importando fontes do google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+/* formatação padrão*/
 *{
     padding: 0;
     box-sizing: border-box;
-}
-
-
-body{
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #202529;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif; 
-    
 }
 
 li{
@@ -28,6 +20,18 @@ a{
 img{
     width: 100%;
 }
+
+/* formatação body*/
+body{
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #202529;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif; 
+    
+}
+
+/* cabeçalho*/
 
 header{
     display: flex;
@@ -72,8 +76,12 @@ li a:hover{
 
 #contato:hover a{
     color: #202529;
+
 }
-.sobre_container{
+
+/* container principal*/
+
+.container{
     height: 100vh;
     display: flex;
     align-items: center;
@@ -81,9 +89,12 @@ li a:hover{
     justify-content: space-between;
     border-bottom: 5px solid rgb(0, 255, 183);
 }
+
+
 .sobre > h1{
     font-size: 30pt;
 }
+
 .sobre > p{
     font-family: 'Poppins', sans-serif;
     font-size: 12pt;
