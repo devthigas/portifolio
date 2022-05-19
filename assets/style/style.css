@@ -119,21 +119,30 @@ li a:hover{
 
 }
 
-.habilidades_container{
-    height: 100vh;
+.itens-container{
+    width: 960px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .html{
-    width: 100px;
+    width: 80px;
 }
+
 .html > h3{
     text-align: center;
 }
 
 #animate{
     color: #1BC6B4;
+}
+
+.listas{
+    max-width: 480px;
+}
+
+.listas > li{
+    margin-bottom: 15px;
 }
